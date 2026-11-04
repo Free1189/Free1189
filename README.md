@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,100:2ea043&height=160&section=header&text=Guilherme%20Ferreira&fontSize=40&fontColor=ffffff" />
+<img src="./banner.svg" width="100%" />
 
 <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=20&pause=1000&color=2EA043&center=true&vCenter=true&width=500&lines=Estudante+de+Ci%C3%AAncia+da+Computa%C3%A7%C3%A3o;Futuro+DevOps+%E2%98%81%EF%B8%8F;Computer+Science+Student;Future+DevOps+Engineer+%E2%98%81%EF%B8%8F;Linux+%7C+Docker+%7C+CI%2FCD+%7C+AWS" />
 
