@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="320" viewBox="0 0 1200 320">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0d1117"/>
+      <stop offset="100%" stop-color="#0a1f14"/>
+    </linearGradient>
+    <radialGradient id="glow1" cx="0.15" cy="0.2" r="0.5">
+      <stop offset="0%" stop-color="#2ea043" stop-opacity="0.35"/>
+      <stop offset="100%" stop-color="#2ea043" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glow2" cx="0.9" cy="0.9" r="0.5">
+      <stop offset="0%" stop-color="#3fb950" stop-opacity="0.25"/>
+      <stop offset="100%" stop-color="#3fb950" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M32 0H0V32" fill="none" stroke="#2ea043" stroke-opacity="0.08" stroke-width="1"/>
+    </pattern>
+    <linearGradient id="name" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="100%" stop-color="#7ee787"/>
+    </linearGradient>
+    <clipPath id="round"><rect width="1200" height="320" rx="18"/></clipPath>
+  </defs>
+  <style>
+    .mono { font-family: 'Fira Code', 'JetBrains Mono', Consolas, 'Courier New', monospace; }
+    .sans { font-family: 'Segoe UI', Ubuntu, 'Helvetica Neue', Arial, sans-serif; }
+    .l1 { opacity:0; animation: fade .6s ease forwards .3s; }
+    .l2 { opacity:0; animation: fade .8s ease forwards 1s; }
+    .l3 { opacity:0; animation: fade .6s ease forwards 1.8s; }
+    .l4 { opacity:0; animation: fade .8s ease forwards 2.4s; }
+    .l5 { opacity:0; animation: fade .6s ease forwards 3.2s; }
+    .cursor { animation: blink 1s step-end infinite; }
+    .dot { animation: float 6s ease-in-out infinite; }
+    .d2 { animation-delay: 1.5s; } .d3 { animation-delay: 3s; } .d4 { animation-delay: 4.5s; }
+    @keyframes fade { from { opacity:0; transform: translateY(6px);} to { opacity:1; transform: translateY(0);} }
+    @keyframes blink { 50% { opacity: 0; } }
+    @keyframes float { 0%,100% { transform: translateY(0); opacity:.5 } 50% { transform: translateY(-10px); opacity:1 } }
+  </style>
+  <g clip-path="url(#round)">
+    <rect width="1200" height="320" fill="url(#bg)"/>
+    <rect width="1200" height="320" fill="url(#grid)"/>
+    <rect width="1200" height="320" fill="url(#glow1)"/>
+    <rect width="1200" height="320" fill="url(#glow2)"/>
+    <circle class="dot" cx="980" cy="70" r="3" fill="#7ee787"/>
+    <circle class="dot d2" cx="1100" cy="140" r="2" fill="#7ee787"/>
+    <circle class="dot d3" cx="1040" cy="240" r="2.5" fill="#7ee787"/>
+    <circle class="dot d4" cx="900" cy="190" r="2" fill="#7ee787"/>
+  </g>
+  <rect x="0.5" y="0.5" width="1199" height="319" rx="18" fill="none" stroke="#2ea043" stroke-opacity="0.35"/>
+  <!-- window bar -->
+  <circle cx="36" cy="34" r="7" fill="#ff5f56"/>
+  <circle cx="60" cy="34" r="7" fill="#ffbd2e"/>
+  <circle cx="84" cy="34" r="7" fill="#27c93f"/>
+  <text x="600" y="39" text-anchor="middle" class="mono" font-size="14" fill="#8b949e">guilherme@devops: ~</text>
+  <line x1="0" y1="62" x2="1200" y2="62" stroke="#2ea043" stroke-opacity="0.2"/>
+  <!-- terminal content -->
+  <text class="mono l1" x="60" y="112" font-size="22"><tspan fill="#3fb950">➜</tspan><tspan fill="#79c0ff"> ~ </tspan><tspan fill="#c9d1d9">whoami</tspan></text>
+  <text class="sans l2" x="58" y="172" font-size="54" font-weight="800" fill="url(#name)">Guilherme Ferreira</text>
+  <text class="mono l3" x="60" y="222" font-size="22"><tspan fill="#3fb950">➜</tspan><tspan fill="#79c0ff"> ~ </tspan><tspan fill="#c9d1d9">cat role.txt</tspan></text>
+  <text class="mono l4" x="60" y="262" font-size="21" fill="#7ee787">Computer Science Student  ·  Future DevOps Engineer</text>
+  <g class="l5">
+    <text class="mono" x="60" y="298" font-size="22"><tspan fill="#3fb950">➜</tspan><tspan fill="#79c0ff"> ~ </tspan></text>
+    <rect class="cursor" x="118" y="280" width="12" height="24" fill="#7ee787"/>
+  </g>
+</svg>
