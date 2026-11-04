@@ -23,6 +23,8 @@
 </p>
 
 ### 📫 Contato
+<a href="https://www.linkedin.com/in/guilherme-ferreira-devops"><img src="https://img.shields.io/badge/LinkedIn-2ea043?style=for-the-badge&logo=linkedin&logoColor=white"/></a>
+<a href="http://3.133.120.214/"><img src="https://img.shields.io/badge/Portf%C3%B3lio-2ea043?style=for-the-badge&logo=amazonaws&logoColor=white"/></a>
 <a href="mailto:guilhermeferreira22.06.07@gmail.com"><img src="https://img.shields.io/badge/Gmail-2ea043?style=for-the-badge&logo=gmail&logoColor=white"/></a>
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:2ea043,100:0d1117&height=100&section=footer" />
