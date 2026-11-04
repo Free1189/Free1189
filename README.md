@@ -12,7 +12,7 @@
 - 🌱 Estudando agora: Linux, Docker e CI/CD
 - 📍 Rio Grande do Sul, Brasil
 
-### 🇺🇸 About me
+### 👨‍💻 About me
 - 🎓 Computer Science student at **ATITUS Educação**
 - 🚀 Focused on **DevOps** and **Cloud**
 - 🌱 Currently learning: Linux, Docker and CI/CD
