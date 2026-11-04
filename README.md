@@ -4,8 +4,6 @@
 
 <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=18&pause=1000&color=34D399&center=true&vCenter=true&width=520&lines=Estudante+de+Ci%C3%AAncia+da+Computa%C3%A7%C3%A3o;Computer+Science+Student;Foco+em+TI+%2F+DevOps;Future+DevOps+Engineer;Linux+%C2%B7+Docker+%C2%B7+CI%2FCD+%C2%B7+AWS" />
 
-<a href="http://3.133.120.214/"><img src="https://img.shields.io/badge/%E2%97%8F%20Dispon%C3%ADvel%20para%20est%C3%A1gio-070d0b?style=for-the-badge&labelColor=070d0b&color=0f1a16&logoColor=34d399" /></a>
-
 </div>
 
 ### 👨‍💻 Sobre mim
