@@ -1,23 +1,23 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="320" viewBox="0 0 1200 320">
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0%" stop-color="#0d1117"/>
-      <stop offset="100%" stop-color="#0a1f14"/>
+      <stop offset="0%" stop-color="#070d0b"/>
+      <stop offset="100%" stop-color="#0b1411"/>
     </linearGradient>
     <radialGradient id="glow1" cx="0.15" cy="0.2" r="0.5">
-      <stop offset="0%" stop-color="#2ea043" stop-opacity="0.35"/>
-      <stop offset="100%" stop-color="#2ea043" stop-opacity="0"/>
+      <stop offset="0%" stop-color="#10b981" stop-opacity="0.35"/>
+      <stop offset="100%" stop-color="#10b981" stop-opacity="0"/>
     </radialGradient>
     <radialGradient id="glow2" cx="0.9" cy="0.9" r="0.5">
-      <stop offset="0%" stop-color="#3fb950" stop-opacity="0.25"/>
-      <stop offset="100%" stop-color="#3fb950" stop-opacity="0"/>
+      <stop offset="0%" stop-color="#34d399" stop-opacity="0.25"/>
+      <stop offset="100%" stop-color="#34d399" stop-opacity="0"/>
     </radialGradient>
     <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
-      <path d="M32 0H0V32" fill="none" stroke="#2ea043" stroke-opacity="0.08" stroke-width="1"/>
+      <path d="M32 0H0V32" fill="none" stroke="#10b981" stroke-opacity="0.08" stroke-width="1"/>
     </pattern>
     <linearGradient id="name" x1="0" y1="0" x2="1" y2="0">
       <stop offset="0%" stop-color="#ffffff"/>
-      <stop offset="100%" stop-color="#7ee787"/>
+      <stop offset="100%" stop-color="#6ee7b7"/>
     </linearGradient>
     <clipPath id="round"><rect width="1200" height="320" rx="18"/></clipPath>
   </defs>
@@ -41,25 +41,29 @@
     <rect width="1200" height="320" fill="url(#grid)"/>
     <rect width="1200" height="320" fill="url(#glow1)"/>
     <rect width="1200" height="320" fill="url(#glow2)"/>
-    <circle class="dot" cx="980" cy="70" r="3" fill="#7ee787"/>
-    <circle class="dot d2" cx="1100" cy="140" r="2" fill="#7ee787"/>
-    <circle class="dot d3" cx="1040" cy="240" r="2.5" fill="#7ee787"/>
-    <circle class="dot d4" cx="900" cy="190" r="2" fill="#7ee787"/>
+    <circle class="dot" cx="980" cy="70" r="3" fill="#6ee7b7"/>
+    <circle class="dot d2" cx="1100" cy="140" r="2" fill="#6ee7b7"/>
+    <circle class="dot d3" cx="1040" cy="240" r="2.5" fill="#6ee7b7"/>
+    <circle class="dot d4" cx="900" cy="190" r="2" fill="#6ee7b7"/>
   </g>
-  <rect x="0.5" y="0.5" width="1199" height="319" rx="18" fill="none" stroke="#2ea043" stroke-opacity="0.35"/>
+  <rect x="0.5" y="0.5" width="1199" height="319" rx="18" fill="none" stroke="#10b981" stroke-opacity="0.35"/>
   <!-- window bar -->
   <circle cx="36" cy="34" r="7" fill="#ff5f56"/>
   <circle cx="60" cy="34" r="7" fill="#ffbd2e"/>
   <circle cx="84" cy="34" r="7" fill="#27c93f"/>
-  <text x="600" y="39" text-anchor="middle" class="mono" font-size="14" fill="#8b949e">guilherme@devops: ~</text>
-  <line x1="0" y1="62" x2="1200" y2="62" stroke="#2ea043" stroke-opacity="0.2"/>
+  <text x="600" y="39" text-anchor="middle" class="mono" font-size="14" fill="#92a69d">guilherme@devops: ~</text>
+  <line x1="0" y1="62" x2="1200" y2="62" stroke="#10b981" stroke-opacity="0.2"/>
   <!-- terminal content -->
-  <text class="mono l1" x="60" y="112" font-size="22"><tspan fill="#3fb950">➜</tspan><tspan fill="#79c0ff"> ~ </tspan><tspan fill="#c9d1d9">whoami</tspan></text>
+  <text class="mono l1" x="60" y="112" font-size="22"><tspan fill="#34d399">➜</tspan><tspan fill="#92a69d"> ~ </tspan><tspan fill="#e4ece8">whoami</tspan></text>
   <text class="sans l2" x="58" y="172" font-size="54" font-weight="800" fill="url(#name)">Guilherme Ferreira</text>
-  <text class="mono l3" x="60" y="222" font-size="22"><tspan fill="#3fb950">➜</tspan><tspan fill="#79c0ff"> ~ </tspan><tspan fill="#c9d1d9">cat role.txt</tspan></text>
-  <text class="mono l4" x="60" y="262" font-size="21" fill="#7ee787">Computer Science Student  ·  Future DevOps Engineer</text>
+  <text class="mono l3" x="60" y="222" font-size="22"><tspan fill="#34d399">➜</tspan><tspan fill="#92a69d"> ~ </tspan><tspan fill="#e4ece8">cat role.txt</tspan></text>
+  <text class="mono l4" x="60" y="262" font-size="21" fill="#6ee7b7">Computer Science Student  ·  Future DevOps Engineer</text>
   <g class="l5">
-    <text class="mono" x="60" y="298" font-size="22"><tspan fill="#3fb950">➜</tspan><tspan fill="#79c0ff"> ~ </tspan></text>
-    <rect class="cursor" x="118" y="280" width="12" height="24" fill="#7ee787"/>
+    <circle cx="1003" cy="291" r="5" fill="#34d399"><animate attributeName="opacity" values="1;.3;1" dur="2s" repeatCount="indefinite"/></circle>
+    <text class="mono" x="1140" y="297" text-anchor="end" font-size="16" fill="#34d399">disponível para estágio</text>
+  </g>
+  <g class="l5">
+    <text class="mono" x="60" y="298" font-size="22"><tspan fill="#34d399">➜</tspan><tspan fill="#92a69d"> ~ </tspan></text>
+    <rect class="cursor" x="118" y="280" width="12" height="24" fill="#6ee7b7"/>
   </g>
 </svg>
